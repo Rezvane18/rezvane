@@ -1,0 +1,148 @@
+<!DOCTYPE html> <html 
+lang="en"> <head> 
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+    <title>Abaad Academy - Online Classes</title>
+     <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap" rel="stylesheet" /> 
+     <style>body { margin: 0;
+     font-family: 'Vazirmatn', sans-serif;
+      direction: ltr;
+       background-color: #f9f9f9;
+        color: #333; } 
+        
+        .container {
+             max-width: 1100px;
+             margin: auto; 
+             padding: 0 20px; 
+             display: flex; 
+             align-items: center; 
+             justify-content: space-between; } 
+             header { 
+                background-color: #4A90E2; 
+                color: white; 
+                padding: 20px 0; } 
+                .logo img { max-height: 50px; }
+                 nav a { color: white; 
+                    margin: 0 15px; 
+                    text-decoration: none;
+                     font-weight: 600; } 
+                     
+                     nav a:hover { color: #FFD700; }
+                     
+                     .hero { text-align: center;
+                         padding: 70px 20px; 
+                         background: linear-gradient(to right, #6A82FB, #FC5C7D);
+                          color: white; } 
+                    
+                          .hero h1 { font-size: 2.8rem;
+                             margin-bottom: 15px; } 
+                             
+                             .hero p { font-size: 1.3rem; 
+                                margin-bottom: 35px; } 
+                                .hero-buttons .btn, 
+                                .hero-buttons .btn-outline {
+                                     padding: 14px 30px; 
+                                     border-radius: 30px; 
+                                     text-decoration: none; 
+                                     font-weight: 700;
+                                      margin: 0 10px; 
+                                      display: inline-block;
+                                       cursor: pointer; 
+                                       transition: background-color 0.3s ease; } 
+                                       
+                                       .btn { background-color: #FFD700;
+                                         color: #333; }
+                                          .btn:hover { background-color: #FFC107; }
+                                          
+                                          .btn-outline { border: 2px solid #FFD700; 
+                                            color: #FFD700; }
+                                             .btn-outline:hover { 
+                                                background-color: #FFD700;
+                                                 color: #333; }
+                                                  .courses { padding: 60px 20px;
+                                                     text-align: center; } 
+                                                     
+                                                     .courses h2 { margin-bottom: 30px; } 
+                                                     .course-list { display: grid;
+                                                         grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+                                                          gap: 25px; } 
+                                                          .card { background-color: white;
+                                                             border-radius: 12px; 
+                                                             padding: 25px;
+                                                              box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+                                                               transition: transform 0.25s ease; }
+                                                                .card:hover { transform: translateY(-10px); }
+                                                                
+                                                                .card h3 { margin-bottom: 12px; color: #4A90E2; }
+                                                                 .about, .contact { padding: 60px 20px;
+                                                                     text-align: center; }
+                                                                     
+   .contact input, .contact textarea {
+ width: 90%; 
+padding:14px; 
+margin: 15px 0; 
+border: 1px solid #ccc;
+ border-radius: 10px;
+  font-size: 1rem; }
+
+   .contact button { 
+    padding: 14px 35px; 
+    background-color: #4A90E2; 
+    color: white; 
+    border: none; 
+    border-radius: 10px; 
+    font-weight: 700; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; } 
+
+    .contact button:hover { background-color: #357ABD; } 
+footer {
+     background-color: #222; 
+     color: white; 
+    padding: 25px 10px;
+     text-align: center; 
+    font-size: 0.9rem; } </style>
+    
+    </head> 
+    <body> 
+        <header> 
+            <div class="container">
+                 <!-- Logo placeholder --> 
+                  <div class="logo"> 
+                    <!-- Add your Abaad logo image here -->
+                      <img src="logo.png" alt="Abaad Academy Logo" />
+                     </div> <nav>
+                         <a href="#courses">Courses</a>
+                          <a href="#about">About</a>
+                           <a href="#contact">Contact</a> 
+                        </nav> </div> 
+                    </header>
+                     <section class="hero"> 
+                        <h1>Welcome to Abaad Academy</h1> 
+                        <p>Professional online courses in English, Graphic Design, Duolingo Prep, and Programming</p> 
+                        <div class="hero-buttons"> 
+                            <a href="#courses" class="btn">Explore Courses</a> 
+                            <a href="#contact" class="btn-outline">Get in Touch</a>
+                         </div> </section> <section id="courses" class="courses">
+                             <h2>Our Courses</h2> <div class="course-list"> <div class="card">
+                                 <!-- Add course image here --> <h3>English Language</h3>
+                                   <p>Grammar, conversation, vocabulary, and pronunciation with interactive practice</p>
+                                 </div> 
+                                 <div class="card"> <h3>Graphic Design</h3> 
+                                    <p>Learn Photoshop, Illustrator, and branding design</p>
+                                 </div> <div class="card"> <h3>Duolingo Prep</h3> 
+                                    <p>Skills training and real test practice to pass with confidence</p>
+                                 </div> <div class="card"> <h3>Programming</h3>
+                                     <p>HTML, CSS, JavaScript, Python from beginner to advanced levels</p>
+                                     </div> </div> </section> <section id="about" class="about"> 
+                                        <h2>About Abaad Academy</h2> 
+                                        <p> Abaad Academy is your trusted online learning platform. We deliver high-quality courses with experienced instructors to help you grow your skills. </p>
+                                     </section> <section id="contact" class="contact"> 
+                                        <h2>Contact Us</h2> <form> <input type="text" placeholder="Your Name" required /> 
+                                            <input type="email" placeholder="Your Email" required /> 
+                                            <textarea rows="4" placeholder="Your Message" required></textarea> 
+                                            <button type="submit">Send</button> </form> </section>
+                                             <footer> 
+        <p>© 2025 Abaad Academy - Made with ❤️</p> 
+    </footer> 
+</body> </html> 

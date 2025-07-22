@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abaad - Radically Better Learning</title>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('my bg.jpg'); /* Replace with your image */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      color: white;
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 100;
+    }
+
+    header img {
+      height: 40px;
+      width: auto;
+    }
+
+    header .logo-text {
+      font-size: 24px;
+      font-weight: bold;
+      margin-left: 10px;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+    }
+
+    nav a {
+      color: #ddd;
+      margin-left: 20px;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .hero {
+      padding-top: 120px;
+      text-align: center;
+      padding: 120px 20px 80px;
+    }
+
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+       text-shadow: 0 0 8px rgba(14, 2, 2, 0.7), 2px 2px 8px rgba(0, 0, 0, 0.6);
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto 30px;
+       text-shadow: 0 0 8px rgba(27, 5, 5, 0.7), 2px 2px 8px rgba(0, 0, 0, 0.6);
+    }
+
+    
+
+    .email-form {
+      margin: 0 auto;
+      max-width: 400px;
+    }
+
+    .email-form input,
+    .email-form button {
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+    }
+
+    .email-form input {
+      width: 65%;
+      margin-right: 10px;
+    }
+
+    .email-form button {
+      background-color: indigo;
+      color: white;
+      cursor: pointer;
+    }
+
+    .email-form button:hover {
+      background-color: darkviolet;
+    }
+
+    footer {
+      background-color: rgba(0, 0, 0, 0.6);
+      text-align: center;
+      padding: 20px;
+      margin-top: 100px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="Design a modern 3D gradient logo using the letter A for the brand 'Abaad'. The logo should feature a sleek, flowing ribbon or abstract style, with shades of blue (light blue, deep blue, and turquoise). Mak.jpg" alt="Abaad Logo"> <!-- Replace with your image -->
+      <div class="logo-text">Abaad</div>
+    </div>
+     <nav class="hidden md:flex space-x-6 text-sm text-white">
+      <a href="#home" class="hover:text-indigo-300">Home</a>
+      <a href="about.html" class="hover:text-indigo-300">About</a>
+      <a href="my cor.html" class="hover:text-indigo-300">Content</a>
+      <a href="submit .html" class="hover:text-indigo-300">Submit</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+   
+
+    <h1>Radically Better <span style="color: violet;">Learning Platform</span></h1>
+    <!-- <p>Learn faster, smarter, and better. Join thousands of students leveling up with Abaad Academy.</p> -->
+     <h2 id="typed-text" style="font-size: 28px; margin-top: 20px; min-height: 40px;"></h2>
+
+    <div class="email-form">
+      <input type="email" placeholder="Your email" required />
+      <button onclick="subscribe()">Start for Free</button>
+    </div>
+  </section>
+
+
+  <script>
+    function subscribe() {
+      alert("Thanks for subscribing! 😊");
+    }
+ 
+  new Typed('#typed-text', {
+    strings: [
+      "Learn faster",
+      "smarter",
+      " and better",
+      "Join thousands of students leveling up with Abaad Academy."
+    ],
+    typeSpeed: 50,
+    backSpeed: 30,
+    backDelay: 2000,
+    loop: true
+  });
+</script>
+
+
+</body>
+</html>
